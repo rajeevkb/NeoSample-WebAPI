@@ -6,7 +6,6 @@ var bower = require('gulp-bower');
 
 gulp.task('bower', function() {
   return bower()
-    .pipe(gulp.dest('lib/'))
 });
 
 gulp.task('default', function() {
@@ -34,15 +33,5 @@ gulp.task('wiredep', function() {
         .pipe(gulp.dest(config.client)); 
 });
 
-gulp.task('bower:install', function() {
-    var options = config.getWiredepDefaultOptions();
-    var wiredep = require('wiredep').stream;
-    
-    return gulp
-        .src(config.index) 
-        .pipe(wiredep(options))
-        .pipe($.inject(gulp.src(config.js)))
-        .pipe(gulp.dest(config.client)); 
-});
 
 
