@@ -18,6 +18,11 @@ C:\Users\Glenn\AppData\Roaming\npm
 └── gulp@3.8.11
 </pre>
 
+References:
+https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+https://github.com/johnpapa/pluralsight-gulp
+
+
 I'ts here. NeoSample for the angular and WebAPI folks
 
 Get a copy via git clone or zip. Run dnu restore and the the project will load the gulp and bower packages needed.
