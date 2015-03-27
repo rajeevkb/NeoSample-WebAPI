@@ -46,6 +46,6 @@
             "npm install --save-dev gulp-bower",
             "gulp bower"
         ],
-        "prepare": [ "gulp bower:install" ]
+        "prepare": []
      }
 }
