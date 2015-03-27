@@ -20,7 +20,7 @@ Note: Make sure you have a global install of both Gulp and Bower.
 
 <pre>npm install -g bower</pre>
 
-to check all packages install by npm globally
+to check all packages installed by npm globally
 <pre>npm list -g --depth=0</pre>
 <pre>
 C:\Users\Glenn\AppData\Roaming\npm
@@ -31,8 +31,10 @@ C:\Users\Glenn\AppData\Roaming\npm
 References:
 
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+
 https://github.com/johnpapa/pluralsight-gulp
-http://www.stoudcloud.com
+
+http://www.stoutcloud.com
 
 I'ts here. NeoSample for the angular and WebAPI folks
 
