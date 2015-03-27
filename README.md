@@ -29,9 +29,10 @@ C:\Users\Glenn\AppData\Roaming\npm
 </pre>
 
 References:
+
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 https://github.com/johnpapa/pluralsight-gulp
-
+http://www.stoudcloud.com
 
 I'ts here. NeoSample for the angular and WebAPI folks
 
