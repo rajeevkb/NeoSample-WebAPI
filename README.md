@@ -3,6 +3,16 @@ ASPNET 5 Starter that includes Web API and Angular support out of the box
 Run from the command line as VS2015 has not transitioned to dnx naming yet. 
 Open root foler in a text editor, I'm using Brackets.
 
+Runs on latest DNX runtime:
+<pre>
+Active Version           Runtime Architecture Location                     Alias
+------ -------           ------- ------------ --------                     -----
+       1.0.0-beta4-11351 clr     x86          C:\Users\Glenn\.dnx\runtimes
+       1.0.0-beta4-11360 clr     x86          C:\Users\Glenn\.dnx\runtimes
+  *    1.0.0-beta5-11380 clr     x86          C:\Users\Glenn\.dnx\runtimes default
+</pre>
+
+
 You'll need to install node. 
 Note: Make sure you have a global install of both Gulp and Bower.
 
