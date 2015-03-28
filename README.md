@@ -20,6 +20,9 @@ Note: Make sure you have a global install of both Gulp and Bower.
 
 <pre>npm install -g bower</pre>
 
+To update npm on your machine use
+<pre>npm update -g np</pre>
+
 to check all packages installed by npm globally
 <pre>npm list -g --depth=0</pre>
 <pre>
