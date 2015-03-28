@@ -15,7 +15,7 @@ gulp.task('default', function() {
 gulp.task('vet', function() {
     return gulp
         .src([
-        './ngsrc/**/*js',
+        './clientsrc/**/*js',
         './*.js'
     ])
     .pipe(jshint())

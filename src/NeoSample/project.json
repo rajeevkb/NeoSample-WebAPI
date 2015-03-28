@@ -1,6 +1,6 @@
 {
     /* Click to learn more about project.json  http://go.microsoft.com/fwlink/?LinkID=517074 */
-    "webroot": ".",
+    "webroot": "wwwroot",
     "version": "0.1.0-*",
     "dependencies": {
 	"Microsoft.AspNet.Server.IIS": "1.0.0-*",
@@ -43,9 +43,10 @@
             "npm install --save-dev gulp-util",
             "npm install --save-dev jshint-stylish",
             "npm install --save-dev wiredep",
-            "npm install --save-dev gulp-bower",
-            "gulp bower"
+            "npm install --save-dev gulp-bower"
         ],
-        "prepare": []
+        "prepare": [
+            "gulp bower"
+        ]
      }
 }
