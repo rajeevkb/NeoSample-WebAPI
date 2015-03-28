@@ -6,10 +6,10 @@
     "Glenn de Wysockie"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/swaggerloaf/NeoSample-WebAPI",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/swaggerloaf/NeoSample-WebAPI.git"
   },
   "dependencies": {},
   "devDependencies": {
