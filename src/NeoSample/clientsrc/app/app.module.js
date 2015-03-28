@@ -4,13 +4,9 @@
 
     angular.module('app', [
         /* Shared modules */
-        'app.core',
-        //'app.widgets',
+        'app.core'
 
         /* Feature areas */
-        //'app.customers',
-        //'app.dashboard',
-        //'app.layout'
     ]);
 
 })();
