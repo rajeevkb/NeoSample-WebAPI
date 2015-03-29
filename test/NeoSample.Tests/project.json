@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "NeoSample": "1.0.0-*",
+        "NeoSample": "0.1.0-*",
         "xunit.runner.aspnet": "2.0.0-aspnet-*",
         "Moq" : "4.2.1312.1622"
     },
