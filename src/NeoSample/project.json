@@ -1,5 +1,4 @@
 {
-    /* Click to learn more about project.json  http://go.microsoft.com/fwlink/?LinkID=517074 */
     "webroot": "*",
     "version": "0.1.0-*",
     "dependencies": {
