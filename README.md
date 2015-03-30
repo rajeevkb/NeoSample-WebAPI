@@ -10,9 +10,12 @@ Runs on latest DNX runtime:
 <pre>
 Active Version           Runtime Architecture Location                     Alias
 ------ -------           ------- ------------ --------                     -----
+       1.0.0-beta4-11337 clr     x86          C:\Users\Glenn\.dnx\runtimes
        1.0.0-beta4-11351 clr     x86          C:\Users\Glenn\.dnx\runtimes
        1.0.0-beta4-11360 clr     x86          C:\Users\Glenn\.dnx\runtimes
-  *    1.0.0-beta5-11380 clr     x86          C:\Users\Glenn\.dnx\runtimes default
+       1.0.0-beta5-11380 clr     x86          C:\Users\Glenn\.dnx\runtimes
+       1.0.0-beta5-11400 clr     x86          C:\Users\Glenn\.dnx\runtimes
+  *    1.0.0-beta5-11413 clr     x86          C:\Users\Glenn\.dnx\runtimes default
 </pre>
 
 
