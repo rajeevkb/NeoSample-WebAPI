@@ -4,7 +4,7 @@ Run from the command line as VS2015 has not transitioned to dnx naming yet.
 Do not attemp to run in Visual Studio until next CTP release.
 
 Open root folder in a text editor, I'm using Brackets.
-I usually open the folder NeoSample-WebAPI\src\NeoSample if I'm working on Web API or Angular since their are .jsscrc and other tooling files there.
+I usually open the folder NeoSample-WebAPI\src\NeoSample if I'm working on Web API or Angular since it contaions .jsscrc and other tooling files there.
 
 Runs on latest DNX runtime:
 <pre>
