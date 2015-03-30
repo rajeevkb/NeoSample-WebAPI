@@ -3,15 +3,19 @@ ASPNET 5 Starter that includes Web API and Angular support out of the box.
 Run from the command line as VS2015 has not transitioned to dnx naming yet.
 Do not attemp to run in Visual Studio until next CTP release.
 
-Open root foler in a text editor, I'm using Brackets.
+Open root folder in a text editor, I'm using Brackets.
+I usually open the folder NeoSample-WebAPI\src\NeoSample if I'm working on Web API or Angular since it contaions .jsscrc and other tooling files there.
 
 Runs on latest DNX runtime:
 <pre>
 Active Version           Runtime Architecture Location                     Alias
 ------ -------           ------- ------------ --------                     -----
+       1.0.0-beta4-11337 clr     x86          C:\Users\Glenn\.dnx\runtimes
        1.0.0-beta4-11351 clr     x86          C:\Users\Glenn\.dnx\runtimes
        1.0.0-beta4-11360 clr     x86          C:\Users\Glenn\.dnx\runtimes
-  *    1.0.0-beta5-11380 clr     x86          C:\Users\Glenn\.dnx\runtimes default
+       1.0.0-beta5-11380 clr     x86          C:\Users\Glenn\.dnx\runtimes
+       1.0.0-beta5-11400 clr     x86          C:\Users\Glenn\.dnx\runtimes
+  *    1.0.0-beta5-11413 clr     x86          C:\Users\Glenn\.dnx\runtimes default
 </pre>
 
 
