@@ -6,9 +6,10 @@
         .controller('Dashboard', Dashboard);
 
     Dashboard.$inject = [];
+    
     function Dashboard() {
         var vm = this;
-        vm.stuff = [];
+        vm.stuff = ['stuff1', 'stuff2'];
         vm.title = 'Dashboard';
 
         activate();
