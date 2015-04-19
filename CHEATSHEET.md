@@ -1,4 +1,4 @@
-Helpful commands:
+
 <pre>dnvm commands:</pre>
 
 <code>dnvm  update-self</code>
