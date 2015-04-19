@@ -16,7 +16,7 @@ namespace NeoSample.DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseInMemoryStore(true);
-           optionsBuilder.UseSqlServer("Server=Glenn-PC;Database=NeoSample-WebAPI-Demo;Trusted_Connection=True;MultipleActiveResultSets=true");
+           optionsBuilder.UseSqlServer("Server=Glenn-PC;Database=NeoSample-WebAPI-Test;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
