@@ -44,3 +44,15 @@ Helpful commands:
 
 <pre>code gen commands:</pre>
 
+<pre>npm commands:</pre>
+
+<code>npm install -g gulp</code>
+
+<code>npm install -g bower</code>
+
+<code>npm update -g np</code>
+
+<code>npm update -g bower</code>
+
+<code>npm list -g --depth=0</code>
+
