@@ -1,5 +1,5 @@
 Helpful commands:
-dnvm  update-self
+<code>dnvm  update-self</code>
 dnvm  list
 dnvm  upgrade
 
