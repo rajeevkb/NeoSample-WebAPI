@@ -12,6 +12,9 @@
 
     <!-- Bootstrap core CSS -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="../bower_components/toastr/toastr.css" />
     <!-- endbower -->
 
     <!-- Custom styles for this template -->
@@ -26,11 +29,13 @@
             <div class="navbar-header">
                 <div class="navbar=brand">Your App name here</div>
             </div>
-        </div>
+        </div> <!-- /container-fluid -->
     </nav>
+      
     <div class="container">
         <div ng-include="'app/dashboard/dashboard.html'"></div>
-        </div>
+        </div> <!-- /container -->
+    
     <div class="container">
       <footer>
         <p>&copy; StoutCloud 2015</p>
@@ -39,9 +44,20 @@
 
     <!-- Bootstrap core JavaScript -->
     <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="../bower_components/toastr/toastr.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <!-- endbower -->
       
     <!-- inject:js -->
+    <script src="/clientsrc/app/app.module.js"></script>
+    <script src="/clientsrc/app/core/core.module.js"></script>
+    <script src="/clientsrc/app/dashboard/dashboard.controller.js"></script>
+    <script src="/clientsrc/app/sightings/sightings.controller.js"></script>
     <!-- endinject -->
   </body>
 </html>
