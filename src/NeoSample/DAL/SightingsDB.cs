@@ -16,7 +16,7 @@ namespace NeoSample.DAL
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
 
-            builder.UseSqlServer(@"Server=Glenn-PC;Database=ZooSightingDemo;Trusted_Connection=True;");
+            builder.UseSqlServer(@"Server=Glenn-PC;Database=NeoSample-WebAPI-Test;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -25,14 +25,20 @@ namespace NeoSample.DAL
             
             modelBuilder.Entity<Zoo>(e =>
                 {
-                    e.Property(z => z.Id).GenerateValueOnAdd(true);
+                    e.Property(z => z.Id)
+                        .ForSqlServer()
+                        .UseIdentity();
                     e.Collection(a => a.Animals);
                     
                 });
                     
-         
-            modelBuilder.Entity<Animal>().Property(a => a.Id).GenerateValueOnAdd(true);
-            modelBuilder.Entity<ZooAnimalSighting>().Property(s => s.Id).GenerateValueOnAdd(true);
+            modelBuilder.Entity<Animal>().Property(a => a.Id)
+                .ForSqlServer()
+                .UseIdentity();
+            
+            modelBuilder.Entity<ZooAnimalSighting>().Property(s => s.Id)
+                .ForSqlServer()
+                .UseIdentity();
             
         }
     }
