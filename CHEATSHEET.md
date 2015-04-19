@@ -1,4 +1,5 @@
 Helpful commands:
+
 <code>dnvm  update-self</code>
 
 <code>dnvm  list</code>
@@ -19,12 +20,17 @@ Helpful commands:
 <code>dnu restore</code>
 
 <code>dnx --version</code>
+
 <code>dnx . web</code>
+
 <code>dnx . ef</code>
+
 <code>dnx . ef context list</code>
 
+<code>dnx . ef migration add CreateInititalIdentity -c NeoSample.DAL.ApplicationDbContext</code>
 
-dnx . ef migration add CreateInititalIdentity -c NeoSample.DAL.ApplicationDbContext
-dnx . ef migration add CreateInititalZooSchema -c NeoSample.DAL.ZooSightingDemoDb
-dnx . ef migration apply CreateInititalZooSchema -c NeoSample.DAL.ZooSightingDemoDb
-dnx . ef migration apply CreateInititalIdentity -c NeoSample.DAL.ApplicationDbContext
+<code>dnx . ef migration add CreateInititalZooSchema -c NeoSample.DAL.ZooSightingDemoDb</code>
+
+<code>dnx . ef migration apply CreateInititalZooSchema -c NeoSample.DAL.ZooSightingDemoDb</code>
+
+<code>dnx . ef migration apply CreateInititalIdentity -c NeoSample.DAL.ApplicationDbContext</code>
