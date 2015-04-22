@@ -5,7 +5,7 @@
 
 <code>dnvm  list</code>
 
-<code>dnvm  upgrade</code>
+<code>dnvm  upgrade -unstable</code>
 
 <pre>git commands:</pre>
 
