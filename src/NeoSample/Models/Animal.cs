@@ -10,8 +10,6 @@ namespace NeoSample.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public float Weight { get; set; }
-        // place holder for enum
-        //public int Group { get; set; }
         public AnimalGroup Group { get; set; }
 
         // Navigation
